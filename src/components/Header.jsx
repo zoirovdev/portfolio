@@ -5,7 +5,7 @@ import { Link } from "react-router"
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-between bg-[#8AA624] h-[70px] p-[10px]">
+    <div className="flex flex-row justify-between bg-[#08CB00] h-[70px] p-[10px]">
       <div className="flex flex-row gap-[20px] justify-center items-center ml-[20px]">
         <img src="profile_pic.jpg" className="object-cover h-[50px] w-[50px] rounded-[50%] bg-[#DBE4C9]"/>
 	<h4 className="text-[#FFFFF0] font-bold">Abbos Zoirov</h4>
@@ -18,14 +18,14 @@ const Header = () => {
 	    About
 	  </h3>
 	</Link>
-	<Link to={""}>
+	<Link to={"/projects"}>
 	  <h3 className="text-[#FFFFF0] font-semibold py-2 px-4
 			 hover:rounded-[20px] hover:bg-[#FFFFF0]
 			 hover:text-black">
-	    Work
+	    Projects
 	  </h3>
 	</Link>
-	<Link to={""}>
+	<Link to={"/contact"}>
 	  <h3 className="text-[#FFFFF0] font-semibold py-2 px-4
 			 hover:rounded-[20px] hover:bg-[#FFFFF0]
 			 hover:text-black">
