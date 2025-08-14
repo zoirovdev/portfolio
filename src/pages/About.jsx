@@ -4,10 +4,10 @@
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="w-[800px] mt-[150px]">
+    <div className="flex flex-col justify-center items-center dark:bg-[#3F4F44] min-h-[calc(100vh-70px)]">
+      <div className="w-[800px]">
         <p className="font-medium font-stretch-semi-expanded tracking-wide
-	  border-l border-[#08CB00] p-4">
+	  border-l border-[#08CB00] p-4 dark:text-[#FFFFF0]">
 	Toshkentlik dasturiy taminotchiman. Kodlashni, desayn qilishti, 
 	loyihalar qurishti yaxshi ko'raman. Har kuni nimadir o'rganyapman. 
 	U dasturlashta bo'sin, hayotda bo'sin farqi yo'q.  Va o'rganganlarimdi 

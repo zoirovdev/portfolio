@@ -5,10 +5,15 @@ import About from "./pages/About.jsx"
 import Projects from "./pages/Projects.jsx"
 import Header from "./components/Header.jsx"
 import Contact from "./pages/Contact.jsx"
+import { ThemeProvider } from './contexts/ThemeContext';
+
+
+
 
 
 function App() {
   return (
+    <ThemeProvider >
     <BrowserRouter>
       <div>
 	<Header />
@@ -19,6 +24,7 @@ function App() {
         </Routes> 
       </div>
     </BrowserRouter>
+    </ThemeProvider>
   )
 }
 

@@ -32,12 +32,13 @@ const Projects = () => {
   ])
 
   return (
-    <div className="flex flex-col justify-center items-center gap-8 mt-[30px] mb-[50px] font-mono">
+    <div className="flex flex-col justify-center items-center gap-8 dark:bg-[#3F4F44] 
+	pt-[30px] pb-[50px] font-mono dark:text-[#FFFFF0]">
       <h3 className="text-lg font-semibold">My work</h3>
       <div className="w-[900px] space-y-12">
         {
           projects.map(project => (
-            <div key={project.id} className="flex flex-row items-center rounded-[10px] border border-[#08CB00]">
+            <div key={project.id} className="flex flex-row items-center rounded-[10px] pl-6 border border-[#08CB00]">
 	      <div className="w-2/5">
 	        <img src={`${project.image}`} alt="website"
 		  className="w-[400px] h-[250px] object-contain rounded-l-[10px]"/>

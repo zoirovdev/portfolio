@@ -50,7 +50,7 @@ const Contact = () => {
   };
   
   return (
-    <div className="flex flex-col justify-center items-center mb-[50px]">
+    <div className="flex flex-col justify-center items-center dark:bg-[#3F4F44] dark:text-[#FFFFF0] pb-[50px]">
       <div className="w-[700px] space-y-8">
         <div className="border-b mt-[20px] font-mono py-8 flex flex-row items-center justify-between gap-4 w-full">
 	  <p className="font-semibold">Reach me on</p>
