@@ -47,13 +47,13 @@ const Projects = () => {
                 <p>{project.name}</p>
 		<div className="flex flex-row justify-start items-center gap-8">
 	          <a href={`${project.demo}`} target="_blank"
-		    className="flex flex-row gap p-1 hover:bg-gray-200 hover:rounded">
+		    className="flex flex-row gap p-1 hover:bg-gray-200 dark:hover:text-[#000000] hover:rounded">
                     <Globe />
 		    <p className="ml-2 italic underline decoration-solid">Demo</p>
 		    <ArrowUpRight />
 		  </a>
 	          <a href={`${project.repo}`} target="_blank"
-		    className="flex flex-row gap p-1 hover:bg-gray-200 hover:rounded">
+		    className="flex flex-row gap p-1 hover:bg-gray-200 dark:hover:text-[#000000] hover:rounded">
                     <Github />
 		    <p className="ml-2 italic underline decoration-solid">Repo</p>
 		    <ArrowUpRight />
